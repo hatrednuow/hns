@@ -74,7 +74,16 @@
             <li><a href="content-tab2.html">HNS해양사고 대응정보</a></li>
           </ul>
         </li>
-        <li><a class="nav-link   scrollto" href="#portfolio">해양사고이력</a></li>
+        <li class="dropdown"><a href="#"><span>HNS물질정보</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">항만위험유해물질</a></li>
+            <li><a href="#">• 위험물물동량통계</a></li>
+            <li><a href="#">• 항만별위험물물동량</a></li>
+            <li><a href="#">법령정보</a></li>
+            <li><a href="#">화학용어</a></li>
+            <li><a href="#">해양용어</a></li>
+          </ul>
+        </li>
         <li><a class="nav-link scrollto" href="#team">정보알림</a></li>
         <li><a class="nav-link scrollto" href="#contact">알림마당</a></li>
       </ul>
@@ -92,20 +101,14 @@
         <div class="row gy-4">
 
           <div class="page col-lg-3">
-              <div class="page-info text-bg-light">해양사고이력</div>
+              <div class="page-info text-bg-light">정보알림</div>
               <div class="btn-group-vertical mt-5 w-100" role="group" aria-label="page-nav">
-                <a href="#" class="btn btn-lg btn-primary text-white p-3">HNS해양사고이력조회 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">HNS해양사고통계 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 유출량 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 지역별 사고현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 지역별 오염원 사고현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 해양오염신고 실적 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 해양오염행위 위반 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 물질별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 선종별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 원인별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 해역별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 유출량별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
+                <a href="#" class="btn btn-lg btn-primary text-white p-3">항만위험유해물질 <i class="bi bi-chevron-right float-end"></i></a>
+                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">• 위험물물동량통계 <i class="bi bi-chevron-right float-end"></i></a>
+                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">• 항만별위험물물동량 <i class="bi bi-chevron-right float-end"></i></a>
+                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">법령정보 <i class="bi bi-chevron-right float-end"></i></a>
+                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">화학용어 <i class="bi bi-chevron-right float-end"></i></a>
+                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">해양용어 <i class="bi bi-chevron-right float-end"></i></a>
               </div>
           </div>
 
@@ -113,105 +116,66 @@
             <div class="container main-content">
               <ol class="border-bottom">
                 <li><a href="index.html" class="text-secondary">&#xF424;</a></li>
-                <li>HNS대응정보</li>
-                <li>HNS해양사고 대응정보</li>
+                <li>정보알림</li>
+                <li>항만 위험유해물질</li>
               </ol>
-              <h1 class="mt-5">HNS해양사고이력조회</h1>
+              <h1 class="mt-5">항만 위험유해물질</h1>
                 <div class="content-section border-bottom">
                   <div class="search-table col-lg-12">
-                      <div class="container p-2">
-                        <form action="">
-                          <div class="col-lg-6">
-                            <div class="row">
-                              <div class="col-lg-4">
-                                <h6>관할해경</h6>
-                              </div>
-                              <div class="col-lg-8">
-                                <div class="form-group">
-                                  <select class="form-select" id="관할해경">
-                                    <option value="전체">전체</option>
-                                    <option value="군산">군산</option>
-                                    <option value="목포">목포</option>
-                                    <option value="목포">목포</option>
-                                    <option value="부산">부산</option>
-                                    <option value="서귀포">서귀포</option>
-                                    <option value="속초">속초</option>
-                                    <option value="여수">여수</option>
-                                    <option value="완도">완도</option>
-                                    <option value="울산">울산</option>
-                                    <option value="인천">인천</option>
-                                    <option value="제주">제주</option>
-                                    <option value="창원">창원</option>
-                                    <option value="태안">태안</option>
-                                    <option value="통영">통영</option>
-                                    <option value="평택">평택</option>
-                                    <option value="포항">포항</option>
-                                  </select>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-lg-4">
-                                <h6>오염원 구분</h6>
-                              </div>
-                              <div class="col-lg-8">
-                                <div class="form-group">
-                                  <select class="form-select" id="오염원-구분">
-                                    <option value="전체">전체</option>
-                                    <option value="선박">선박</option>
-                                    <option value="육상">육상</option>
-                                    <option value="육상(개인)">육상(개인)</option>
-                                    <option value="육상(해양시설)">육상(해양시설)</option>
-                                    <option value="해상">해상</option>
-                                    <option value="기타">기타</option>
-                                    <option value="미상">미상</option>
-                                  </select>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-lg-4">
-                                <h6>오염물질 종류</h6>
-                              </div>
-                              <div class="col-lg-8">
-                                <div class="form-group">
-                                  <select class="form-select" id="오염물질-종류">
-                                    <option value="전체">전체</option>
-                                    <option value="유해액체">유해액체</option>
-                                    <option value="유성혼합물">유성혼합물</option>
-                                    <option value="경유">경유</option>
-                                    <option value="원유">원유</option>
-                                    <option value="중유">중유</option>
-                                    <option value="기타">기타</option>
-                                    <option value="기타유">기타유</option>
-                                    <option value="폐기물">폐기물</option>
-                                  </select>
-                                </div>
-                              </div>
-                            </div>  
-                            <div class="row">
-                              <div class="col-lg-4">
-                                <span><h6 class="align-baseline">총유출량</h6></span>
-                              </div>
-                              <div class="col-lg-8">
-                                <div class="row">
-                                  <div class="col-lg-6">
-                                    <input type="text" class="form-control" id="총유출량" placeholder=" ">
-                                  </div>
-                                  <div class="col-lg-1">~</div>
-                                  <div class="col-lg-5">
-                                    <input type="text" class="form-control" id="총유출량" placeholder=" ">
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            
-                            
-                            
-                          </div>
-                          <div class="col-lg-6"></div>
-                          
-                        </form>
+                      
+                      <div class="text-center p-2">
+                        <div class="search">
+                          <i class="fa fa-search"></i>
+                          <input type="text" class="form-control" placeholder="검색어를 입력해주세요">
+                        </div>
+                      </div>
+                      <div class="text-center p-3">
+                        <div class="char-button">
+                          <ul class="char-hangeul">
+                            <li><a href="#">ㄱ</a></li>
+                            <li><a href="#">ㄴ</a></li>
+                            <li><a href="#">ㄷ</a></li>
+                            <li><a href="#">ㄹ</a></li>
+                            <li><a href="#">ㅁ</a></li>
+                            <li><a href="#">ㅂ</a></li>
+                            <li><a href="#">ㅅ</a></li>
+                            <li><a href="#">ㅇ</a></li>
+                            <li><a href="#">ㅈ</a></li>
+                            <li><a href="#">ㅊ</a></li>
+                            <li><a href="#">ㅋ</a></li>
+                            <li><a href="#">ㅌ</a></li>
+                            <li><a href="#">ㅍ</a></li>
+                            <li><a href="#">ㅎ</a></li>
+                          </ul>
+                          <ul class="char-roman">
+                            <li><a href="#">A</a></li>
+                            <li><a href="#">B</a></li>
+                            <li><a href="#">C</a></li>
+                            <li><a href="#">D</a></li>
+                            <li><a href="#">E</a></li>
+                            <li><a href="#">F</a></li>
+                            <li><a href="#">G</a></li>
+                            <li><a href="#">H</a></li>
+                            <li><a href="#">I</a></li>
+                            <li><a href="#">J</a></li>
+                            <li><a href="#">K</a></li>
+                            <li><a href="#">L</a></li>
+                            <li><a href="#">M</a></li>
+                            <li><a href="#">N</a></li>
+                            <li><a href="#">O</a></li>
+                            <li><a href="#">P</a></li>
+                            <li><a href="#">Q</a></li>
+                            <li><a href="#">R</a></li>
+                            <li><a href="#">S</a></li>
+                            <li><a href="#">T</a></li>
+                            <li><a href="#">U</a></li>
+                            <li><a href="#">V</a></li>
+                            <li><a href="#">W</a></li>
+                            <li><a href="#">X</a></li>
+                            <li><a href="#">Y</a></li>
+                            <li><a href="#">Z</a></li>
+                          </ul>
+                        </div>
                       </div>
                   </div>
                   <div class="tab table-responsive">
@@ -272,6 +236,94 @@
                           <td>64-19-7</td>
                           <td>2789</td>
                           <td>용해(D)</td>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>아세트산</td>
+                            <td>Acetic acid</td>
+                            <td>8</td>
+                            <td>64-19-7</td>
+                            <td>2789</td>
+                            <td>용해(D)</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>아세트산</td>
+                            <td>Acetic acid</td>
+                            <td>8</td>
+                            <td>64-19-7</td>
+                            <td>2789</td>
+                            <td>용해(D)</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>아세트산</td>
+                            <td>Acetic acid</td>
+                            <td>8</td>
+                            <td>64-19-7</td>
+                            <td>2789</td>
+                            <td>용해(D)</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>아세트산</td>
+                            <td>Acetic acid</td>
+                            <td>8</td>
+                            <td>64-19-7</td>
+                            <td>2789</td>
+                            <td>용해(D)</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>아세트산</td>
+                            <td>Acetic acid</td>
+                            <td>8</td>
+                            <td>64-19-7</td>
+                            <td>2789</td>
+                            <td>용해(D)</td>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>아세트산</td>
+                              <td>Acetic acid</td>
+                              <td>8</td>
+                              <td>64-19-7</td>
+                              <td>2789</td>
+                              <td>용해(D)</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>아세트산</td>
+                              <td>Acetic acid</td>
+                              <td>8</td>
+                              <td>64-19-7</td>
+                              <td>2789</td>
+                              <td>용해(D)</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>아세트산</td>
+                              <td>Acetic acid</td>
+                              <td>8</td>
+                              <td>64-19-7</td>
+                              <td>2789</td>
+                              <td>용해(D)</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">4</th>
+                              <td>아세트산</td>
+                              <td>Acetic acid</td>
+                              <td>8</td>
+                              <td>64-19-7</td>
+                              <td>2789</td>
+                              <td>용해(D)</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">5</th>
+                              <td>아세트산</td>
+                              <td>Acetic acid</td>
+                              <td>8</td>
+                              <td>64-19-7</td>
+                              <td>2789</td>
+                              <td>용해(D)</td>
                         </tr>
                       </tbody>
                     </table>
