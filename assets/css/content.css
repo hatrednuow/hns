@@ -39,6 +39,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Jost", sans-serif;
 }
 
+.pl-3 {
+  padding-left: 30px !important;
+}
+.table > thead {
+  font-size: 12px;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/

@@ -258,12 +258,15 @@ $(document).ready(function() {
     "<'row'<'col-sm-12 col-md-12 text-center'p>>",
     "searching": false,
     "lengthChange": false,
+    pagingType: 'full_numbers',
     language: {
       "info": "Total _TOTAL_",
       //customize pagination prev and next buttons: use arrows instead of words
       'paginate': {
-        'previous': '<span class="fa fa-chevron-left"></span>',
-        'next': '<span class="fa fa-chevron-right"></span>'
+        'first': '<span class="paginate_button fa fa-angle-double-left mx-2"></span>',
+        'last': '<span class="paginate_button fa fa-angle-double-right mx-2"></span>',
+        'previous': '<span class="paginate_button fa fa-angle-left mx-2"></span>',
+        'next': '<span class="paginate_button fa fa-angle-right mx-2"></span>'
       },
       //customize number of elements to be displayed
       "lengthMenu": 'Display <select class="form-control input-sm">'+

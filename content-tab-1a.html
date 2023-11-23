@@ -88,8 +88,8 @@
           <div class="page col-lg-3">
               <div class="page-info text-bg-light">HNS물질정보</div>
               <div class="btn-group-vertical mt-5 w-100" role="group" aria-label="page-nav">
-                <a href="content-tab.html" class="btn btn-lg btn-primary text-white p-3">위험유해물질 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="content-tab-1a.html" class="btn btn-lg btn-outline-light text-black p-3 pl-3">- 위해성분류 <i class="bi bi-chevron-right float-end"></i></a>
+                <a href="content-tab.html" class="btn btn-lg btn-outline-light text-black p-3">위험유해물질 <i class="bi bi-chevron-right float-end"></i></a>
+                <a href="content-tab-1a.html" class="btn btn-lg btn-primary text-white p-3 pl-3">- 위해성분류 <i class="bi bi-chevron-right float-end"></i></a>
                 <a href="content-tab-1b.html" class="btn btn-lg btn-outline-light text-black p-3 pl-3">- 거동특성분류 <i class="bi bi-chevron-right float-end"></i></a>
                 <a href="#" class="btn btn-lg btn-outline-light text-black p-3 pl-3">- 위해성우선순위 <i class="bi bi-chevron-right float-end"></i></a>
               </div>
@@ -100,9 +100,9 @@
               <ol class="border-bottom">
                 <li><a href="index.html" class="text-secondary">&#xF424;</a></li>
                 <li>HNS물질정보</li>
-                <li>위험유해물질</li>
+                <li>위해성 분류</li>
               </ol>
-              <h1 class="mt-5">위험유해물질</h1>
+              <h1 class="mt-5">위해성 분류</h1>
                 <div class="content-section border-bottom">
                   <div class="search-table col-lg-12">
                       <div class="text-center p-2">
@@ -111,73 +111,44 @@
                         <label class="btn btn-sm m-2 btn-outline-primary" for="option1">전체</label>
 
                         <input type="radio" class="btn-check" name="options-base" id="option2" autocomplete="off">
-                        <label class="btn btn-sm m-2 btn-outline-primary" for="option2">UN번호</label>
+                        <label class="btn btn-sm m-2 btn-outline-primary" for="option2">X류</label>
 
                         <input type="radio" class="btn-check" name="options-base" id="option3" autocomplete="off">
-                        <label class="btn btn-sm m-2 btn-outline-primary" for="option3">CAS번호</label>
+                        <label class="btn btn-sm m-2 btn-outline-primary" for="option3">Y류</label>
 
                         <input type="radio" class="btn-check" name="options-base" id="option4" autocomplete="off">
-                        <label class="btn btn-sm m-2 btn-outline-primary" for="option4">영문명</label>
+                        <label class="btn btn-sm m-2 btn-outline-primary" for="option4">Z류</label>
 
                         <input type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off">
-                        <label class="btn btn-sm m-2 btn-outline-primary" for="option5">국문명</label>
+                        <label class="btn btn-sm m-2 btn-outline-primary" for="option5">기타물질</label>
+
+                        <input type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+                        <label class="btn btn-sm m-2 btn-outline-primary" for="option6">잠정평가물질</label>
                         
                       </div>
-                      <div class="text-center p-2">
+                      <div class="col-lg-12 p-3 mt-3 mb-3">
+                        <h6 class="border-bottom border-light-subtle pb-3"><span class="badge bg-dark">검색 TIP</span> 위해성 분류 조건에 따라 검색이 가능합니다.</h6>
+
+                        <dl class="row mx-1">
+                          <dt class="col-sm-2 border-bottom p-3">1. X류 물질</dt>
+                          <dd class="col-sm-10 border-bottom p-3 mb-0">해양에 배출되는 경우 해양자원 또는 인간의 건강에 심각한 위해를 끼치는 것으로서 해양배출을 금지하는 유해액체물질</dd>
+                          <dt class="col-sm-2 border-bottom p-3">2. Y류 물질</dt>
+                          <dd class="col-sm-10 border-bottom p-3 mb-0">해양에 배출되는 경우 해양자원 또는 인간의 건강에 위해를 끼치거나 해양의 쾌적성 또는 해양의 적합한 이용에 위해를 끼치는 것으로서 해양배출을 제한하여야 하는 유해액체물질</dd>
+                          <dt class="col-sm-2 border-bottom p-3">3. Z류 물질</dt>
+                          <dd class="col-sm-10 border-bottom p-3 mb-0">해양에 배출되는 경우 해양자원 또는 인간의 건강에 경미한 위해를 끼치는 것으로서 해양배출을 일부 제한하여야 하는 유해액체물질</dd>
+                          <dt class="col-sm-2 border-bottom p-3">4. 기타 물질</dt>
+                          <dd class="col-sm-10 border-bottom p-3 mb-0">「위험화학품 산적운송선박의 구조 및 설비를 위한 국제코드」 제18장의 오염분류에서 기타 물질로 표시된 물질로서 탱크세정수 배출 작업으로 해양에 배출할 경우 현재는 해양자원, 인간의 건강, 해양의 쾌적성 그 밖에 적법한 이용에 위해가 없다고 간주되어 제1호부터 제3호까지의 규정에 따른 범주에 해당되지 아니하는 것으로 알려진 물질</dd>
+                          <dt class="col-sm-2 border-bottom p-3">5. 잠정평가물질</dt>
+                          <dd class="col-sm-10 border-bottom p-3 mb-0">제1호부터 제4호까지의 규정에 따라 분류되어 있지 아니한 액체물질로서 산적(散積)운송하기 위한 신청이 있는 경우 해양수산부장관이 「산적된 유해액체물질에 의한 오염규제를 위한 규칙」 부록 1에 정하여진 유해액체물질의 분류를 위한 지침에 따라 잠정적으로 제1호부터 제4호까지의 어느 하나에 해당하는 것으로 평가한 물질</dd>
+                        </dl>
+
+                      </div>
+                      <!-- <div class="text-center p-2">
                         <div class="search">
                           <i class="fa fa-search"></i>
                           <input type="text" class="form-control" placeholder="감색어를입력해주세요">
                         </div>
-                        <h6 class="mt-3"><span class="badge bg-dark">검색 TIP</span> UN번호, CAS번호, 영문명, 국문명 등으로 검색하세요.</h6>
-                      </div>
-                      <div class="text-center p-3">
-                        <div class="char-button">
-                          <ul class="char-hangeul">
-                            <li><a href="#">ㄱ</a></li>
-                            <li><a href="#">ㄴ</a></li>
-                            <li><a href="#">ㄷ</a></li>
-                            <li><a href="#">ㄹ</a></li>
-                            <li><a href="#">ㅁ</a></li>
-                            <li><a href="#">ㅂ</a></li>
-                            <li><a href="#">ㅅ</a></li>
-                            <li><a href="#">ㅇ</a></li>
-                            <li><a href="#">ㅈ</a></li>
-                            <li><a href="#">ㅊ</a></li>
-                            <li><a href="#">ㅋ</a></li>
-                            <li><a href="#">ㅌ</a></li>
-                            <li><a href="#">ㅍ</a></li>
-                            <li><a href="#">ㅎ</a></li>
-                          </ul>
-                          <ul class="char-roman">
-                            <li><a href="#">A</a></li>
-                            <li><a href="#">B</a></li>
-                            <li><a href="#">C</a></li>
-                            <li><a href="#">D</a></li>
-                            <li><a href="#">E</a></li>
-                            <li><a href="#">F</a></li>
-                            <li><a href="#">G</a></li>
-                            <li><a href="#">H</a></li>
-                            <li><a href="#">I</a></li>
-                            <li><a href="#">J</a></li>
-                            <li><a href="#">K</a></li>
-                            <li><a href="#">L</a></li>
-                            <li><a href="#">M</a></li>
-                            <li><a href="#">N</a></li>
-                            <li><a href="#">O</a></li>
-                            <li><a href="#">P</a></li>
-                            <li><a href="#">Q</a></li>
-                            <li><a href="#">R</a></li>
-                            <li><a href="#">S</a></li>
-                            <li><a href="#">T</a></li>
-                            <li><a href="#">U</a></li>
-                            <li><a href="#">V</a></li>
-                            <li><a href="#">W</a></li>
-                            <li><a href="#">X</a></li>
-                            <li><a href="#">Y</a></li>
-                            <li><a href="#">Z</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                      </div> -->
                   </div>
                   <div class="tab table-responsive">
                     <table class="table table-striped table-hover table-bordered"  id="sortTable">
