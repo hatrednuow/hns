@@ -1057,7 +1057,7 @@ section {
   position: fixed;
   top: calc(100% + 30px);
   margin: 0;
-  padding: 20px 19%;
+  padding: 20px 15% 20px 30%;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -1074,11 +1074,28 @@ section {
   box-shadow: 0px 10px 10px rgba(127, 137, 161, 0.15);
   flex-wrap: wrap;
 }
+.navbar .dropdown ul::after {
+  content: ' ';
+  display: block;
+  background-image: url(../../assets/img/hns-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 50px;
+  filter: opacity(20%);
+  position: absolute;
+  right: 11%;
+  bottom: 10px;
+}
 .navbar .dropdown:hover > ul {
   top: 120%;
 }
 .navbar .dropdown ul li {
   flex-basis: calc(100%/4);
+}
+.navbar .dropdown ul a {
+  font-size: 1rem;
+  font-weight: 700;
 }
 .nav-title {
   display: flex;
