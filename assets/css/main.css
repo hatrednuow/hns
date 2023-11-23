@@ -1034,3 +1034,70 @@ section {
     padding-top: 4px;
   }
 }
+/*--------------------------------------------------------------
+# Nav Revision
+--------------------------------------------------------------*/
+.navbar ul {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar li {
+  position: relative;
+  min-width: 200px;
+}
+
+.navbar .dropdown ul {
+  display: flex;
+  position: fixed;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 20px 19%;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: var(--white);
+  border-bottom: 1px solid rgba(127, 137, 161, 0.15);
+  transition: 0.6s;
+  border-radius: 0;
+  width: 100vmax;
+  left: 0;
+  min-height: 150px;
+  top: 147px !important;
+  flex-basis: 200px;
+  justify-content: left;
+  box-shadow: 0px 10px 10px rgba(127, 137, 161, 0.15);
+  flex-wrap: wrap;
+}
+.navbar .dropdown:hover > ul {
+  top: 120%;
+}
+.navbar .dropdown ul li {
+  flex-basis: calc(100%/4);
+}
+.nav-title {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18%;
+  background: var(--blue);
+  height: 101%;
+  padding: 25px;
+    padding-left: 25px;
+  justify-content: left;
+  align-items: center;
+  padding-left: 2%;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--white);
+}
+
+/*--------------------------------------------------------------
+# Nav Revision
+--------------------------------------------------------------*/
