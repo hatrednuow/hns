@@ -318,12 +318,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logout .btn {
   border-radius: 15px;
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 700;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   border: 1px solid #ced4da;
 }
 
@@ -1035,3 +1035,58 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
     padding-top: 4px;
   }
 }
+
+/*--------------------------------------------------------------
+# Nav Revision
+--------------------------------------------------------------*/
+.navbar ul {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar li {
+  position: relative;
+  min-width: 200px;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: fixed;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 20px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: pink;
+  transition: 0.3s;
+  border-radius: 0;
+  width: 100vmax;
+  left: 0;
+  height: 100px;
+  top: 150px !important;
+}
+.navbar .dropdown:hover > ul {
+  top: 120%;
+}
+
+.navbar .dropdown ul::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: pink;
+  width: 100vmax;
+  height: 123px;
+  left: -20%;
+  top: 0px;
+  visibility: hidden;
+}
+
+/*--------------------------------------------------------------
+# Nav Revision
+--------------------------------------------------------------*/
