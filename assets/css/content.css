@@ -826,7 +826,7 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
    right: 16px;
 
   }
-  .char-button .char-hangeul, .char-button .char-roman {
+  .char-button .char-hangeul, .char-button .char-roman, .char-button .char-filter {
     list-style: none;
     margin: 0 auto;
     padding: 0;
@@ -849,6 +849,22 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
     padding-top: 3px;
     text-decoration: none;
 
+  }
+  .char-filter li a {
+    display: inline-flex;
+    width: 96px;
+    height: 34px;
+    border-radius: 9px;
+    border: 0.75px solid #E2E2E2;
+    background: #FFF;
+    text-align: center;
+    font-size: 14px;
+    margin: 3px;
+    /* padding-left: 0%; */
+    /* padding-top: 3px; */
+    text-decoration: none;
+    line-height: 34px;
+    justify-content: center;
   }
   .char-roman li a {
     display: inline-flex;
