@@ -33,7 +33,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/color.css" rel="stylesheet">
   <link href="assets/css/content.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
 </head>
 
 <body>
@@ -41,7 +40,7 @@
    <!-- ======= Header ======= -->
    <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center mb-3">
-      <a href="index.html" class="logo me-auto"><img src="assets/img/hns_logo.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="logo me-auto"><img src="assets/img/hns-logo.svg" alt="" class="img-fluid"></a>
       <div class="search me-auto">
         <div class="form-group has-icon">
           <span class="fa fa-search form-control-feedback"></span>
@@ -190,109 +189,124 @@
                         </div>
                       </div> -->
                   </div>
+
+                  <!-- Download Button -->
+                  <button class="btn btn-sm btn-outline-light float-end shadow-sm text-dark border-light-subtle px-3 py-1 align-middle mt-4 mb-3"><img src="/assets/img/icon-download-excel.png" style="width: 20px !important; " alt="download sheet" class="p-0 m-0"> Download</button>
+                  <!-- Download Button -->
                   <!-- Start Table -->
 
                   <table class="table mt-5 tab-list">
                     <thead class="table-light">
                       <tr>
                         <th scope="col" style="width: 5%;">NO</th>
-                        <th scope="col" style="width: 15%;">물질명 (국문)</th>
+                        <th scope="col" style="width: 20%;">물질명 (국문)</th>
                         <th scope="col" style="width: 20%;">물질명 (영문)</th>
-                        <th scope="col" style="width: 20%;">CAS</th>
+                        <th scope="col" style="width: 10%;">위해성</th>
+                        <th scope="col" style="width: 10%;">CAS</th>
                         <th scope="col" style="width: 10%;">UN</th>
                         <th scope="col" style="width: 10%;">IMDG</th>
-                        <th scope="col" style="width: 25%;">해양환경거동분류</th>
+                        <th scope="col" style="width: 20%;">거동특성</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
-                        <td>아세트산</td>
-                        <td>Acetic acid</td>
-                        <td>64-19-7</td>
-                        <td>2789</td>
+                        <td>황화장쇄알킬페네이트칼슘(C8-C40)</td>
+                        <td>Calcium long-chain alkyl phenate sulphide(C8-C40)</td>
+                        <td>Y</td>
+                        <td>-</td>
+                        <td>-</td>
                         <td>0</td>
-                        <td>용해(D)</td>
+                        <td>부유(F)</td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>아세트산 무수물</td>
-                        <td>Acetic anhydride</td>
-                        <td>108-24-7</td>
-                        <td>1715</td>
-                        <td>8</td>
+                        <td>황화암모늄/황화수소나트륨 용액</td>
+                        <td>Sodium hydrosulphide /Ammonium sulphide solution</td>
+                        <td>Y</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>0</td>
                         <td>용해(D)</td>
                       </tr>
                       <tr>
                         <th scope="row">3</th>
-                        <td>아세톤 시아노히드린</td>
-                        <td>Acetone cyanohydrin</td>
-                        <td>75-86-5</td>
-                        <td>1541</td>
-                        <td>6.1</td>
-                        <td>용해(D)</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>아세토니트릴</td>
-                        <td>Acetonitrile</td>
-                        <td>75-05-8</td>
-                        <td>1648</td>
-                        <td>3</td>
-                        <td>용해/증발(DE)</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">5</th>
-                        <td>아크릴산</td>
-                        <td>Acrylic acid</td>
-                        <td>79-10-7</td>
-                        <td>2218</td>
-                        <td>8</td>
-                        <td>용해(D)</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">6</th>
-                        <td>아세트산</td>
-                        <td>Acetic acid</td>
-                        <td>64-19-7</td>
-                        <td>2789</td>
+                        <td>황화암모늄 용액(45% 이하)</td>
+                        <td>Ammonium sulphide solution(45% or less)</td>
+                        <td>12135-76-1</td>
+                        <td>2683</td>
+                        <td>-</td>
                         <td>0</td>
                         <td>용해(D)</td>
                       </tr>
                       <tr>
+                        <th scope="row">4</th>
+                        <td>황화암모늄 용액</td>
+                        <td>Ammonium sulphate solution</td>
+                        <td>Z</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>황화수소나트륨(6% 이하) /탄산나트륨(3% 이하) 용액</td>
+                        <td>Sodium hydorgen sulphide (6% or less)/Sodium carbonate (3% or less) solution</td>
+                        <td>Z</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>황화장쇄알킬페네이트칼슘(C8-C40)</td>
+                        <td>Calcium long-chain alkyl phenate sulphide(C8-C40)</td>
+                        <td>Y</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>부유(F)</td>
+                      </tr>
+                      <tr>
                         <th scope="row">7</th>
-                        <td>아세트산 무수물</td>
-                        <td>Acetic anhydride</td>
-                        <td>108-24-7</td>
-                        <td>1715</td>
-                        <td>8</td>
+                        <td>황화암모늄/황화수소나트륨 용액</td>
+                        <td>Sodium hydrosulphide /Ammonium sulphide solution</td>
+                        <td>Y</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>0</td>
                         <td>용해(D)</td>
                       </tr>
                       <tr>
                         <th scope="row">8</th>
-                        <td>아세톤 시아노히드린</td>
-                        <td>Acetone cyanohydrin</td>
-                        <td>75-86-5</td>
-                        <td>1541</td>
-                        <td>6.1</td>
+                        <td>황화암모늄 용액(45% 이하)</td>
+                        <td>Ammonium sulphide solution(45% or less)</td>
+                        <td>12135-76-1</td>
+                        <td>2683</td>
+                        <td>-</td>
+                        <td>0</td>
                         <td>용해(D)</td>
                       </tr>
                       <tr>
                         <th scope="row">9</th>
-                        <td>아세토니트릴</td>
-                        <td>Acetonitrile</td>
-                        <td>75-05-8</td>
-                        <td>1648</td>
-                        <td>3</td>
-                        <td>용해/증발(DE)</td>
+                        <td>황화암모늄 용액</td>
+                        <td>Ammonium sulphate solution</td>
+                        <td>Z</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>용해(D)</td>
                       </tr>
                       <tr>
                         <th scope="row">10</th>
-                        <td>아크릴산</td>
-                        <td>Acrylic acid</td>
-                        <td>79-10-7</td>
-                        <td>2218</td>
-                        <td>8</td>
+                        <td>황화수소나트륨(6% 이하) /탄산나트륨(3% 이하) 용액</td>
+                        <td>Sodium hydorgen sulphide (6% or less)/Sodium carbonate (3% or less) solution</td>
+                        <td>Z</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>0</td>
                         <td>용해(D)</td>
                       </tr>
                     </tbody>
