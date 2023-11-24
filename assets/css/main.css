@@ -245,16 +245,16 @@ input:focus, button:focus {
 
 .navbar a, .navbar a:focus {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-size: 16px;
+  padding: 10px;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--darkgrey);
   white-space: nowrap;
-  transition: 0.3s;
+  transition: 0.2s;
   text-decoration: none;
   font-weight: 900;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar a i, .navbar a:focus i {
