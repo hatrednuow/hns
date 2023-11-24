@@ -1212,6 +1212,8 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
 .sidebar ul li {
   border-bottom: 1px solid #CFD8DC;
   background: #F8FBFF;
+  border-left: 1px solid #CFD8DC;
+  border-right: 1px solid #CFD8DC;
 }
 
 .sidebar ul li:hover {
@@ -1221,6 +1223,8 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
 .sidebar ul li:first-child {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  border-left: 0;
+  border-right: 0;
 }
 .sidebar ul li:last-child {
   border-bottom-right-radius: 10px;
