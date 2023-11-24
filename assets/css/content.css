@@ -1199,3 +1199,47 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
 /*--------------------------------------------------------------
 # Table
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Side Nav
+--------------------------------------------------------------*/
+.sidebar ul {
+  list-style: none;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.sidebar ul li {
+  border-bottom: 1px solid #CFD8DC;
+  background: #F8FBFF;
+}
+
+.sidebar ul li:hover {
+  background: #DAE9FB;
+  transition: all 0.5s;
+}
+.sidebar ul li:first-child {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.sidebar ul li:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.sidebar ul li.active {
+  background: #4E8CFF;
+}
+.sidebar ul li.active a {
+  color: var(--main-bg);
+}
+.sidebar ul li a {
+  color: var(--black);
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding: 20px;
+  transition: all 0.5s;
+}
+/*--------------------------------------------------------------
+# Side Nav
+--------------------------------------------------------------*/
