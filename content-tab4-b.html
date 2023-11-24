@@ -125,7 +125,8 @@
     
           <div class="page col-lg-3">
             <div class="page-info text-bg-light">정보알림</div>
-            <div class="btn-group-vertical mt-5 w-100" role="group" aria-label="page-nav">
+
+            <!-- <div class="btn-group-vertical mt-5 w-100" role="group" aria-label="page-nav">
               <a href="content-tab4-a.html" class="btn btn-lg btn-outline-light text-black p-3">항만위험유해물질 <i
                   class="bi bi-chevron-right float-end"></i></a>
               <a href="content-tab4-b.html" class="btn btn-lg btn-primary text-white p-3">• 위험물물동량통계 <i
@@ -138,7 +139,32 @@
                   class="bi bi-chevron-right float-end"></i></a>
               <a href="#" class="btn btn-lg btn-outline-light text-black p-3">해양용어 <i
                   class="bi bi-chevron-right float-end"></i></a>
+            </div> -->
+
+            <!-- Side Navigation Bar -->
+            <div class="sidebar">
+              <ul class="d-flex flex-column">
+                <li class="active">
+                  <a href="content-tab4-a.html">항만위험유해물질<i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+                <li>
+                  <a href="content-tab4-b.html">위험물물동량통계<i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+                <li>
+                  <a href="content-tab4-c.html">항만별위험물물동량<i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+                <li>
+                  <a href="content-tab4-d.html">법령정보<i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+                <li>
+                  <a href="content-tab4-e.html">법령정보<i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+                <li>
+                  <a href="#">해양용어<i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+              </ul>
             </div>
+            <!-- Side Navigation Bar -->
           </div>
     
           <div class="col-lg-9">
@@ -477,16 +503,17 @@
               
               <p class="text-danger mt-2 ms-3">차트를 조회하시려면 항목 선택 후 차트조회를 눌러주세요.</p>
 
+              <button class="btn btn-sm btn-secondary ">데이터보기</button>
+
               <div class="container mt-5 mb-5">
                 <div class="row justify-content-md-center">
-                  <div class="col-lg-10"><img src="./assets/img/chart-dummy-tab4-b.jpg" class="text-center img-fluid" alt=""></div>
+                  <div class="col-lg-12"><img src="./assets/img/chart-dummy-tab4-b.jpg" class="text-center img-fluid" style="height: auto;" alt=""></div>
                 </div>
               </div><!-- chart image dummy  -->
+              
 
-              <div class="tab table-responsive mt-4">
-                <button class="btn btn-sm btn-outline-primary float-end shadow text-dark border-light-subtle px-3 py-1 align-middle"><img src="/assets/img/icon-download-excel.png" style="width: 20px !important; " alt="download sheet" class="p-0 m-0"> Download</button>
-                <table class="table table-striped table-hover table-bordered"  id="sortTable">
-                  <thead class="table-dark">
+                <table class="table mt-5 tab-list">
+                  <thead class="table-light">
                     <tr>
                       <th scope="col">지역.</th>
                       <th scope="col">연도</th>
@@ -534,7 +561,38 @@
                     </tr>
                   </tbody>
                 </table>
-              </div>
+
+                <!-- Start pagination -->
+                <div class="d-flex justify-content-center mt-4">
+                  <nav aria-label="navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                          <i class="bi bi-chevron-double-left"></i>
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link m-1 rounded-3" href="#" aria-label="Previous">
+                          <i class="bi bi-chevron-left"></i>
+                        </a>
+                      </li>
+                      <li class="page-item  active" aria-current="page"><a class="page-link m-1 rounded-3" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link m-1 rounded-3" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link m-1 rounded-3" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                          <i class="bi bi-chevron-right"></i>
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                          <i class="bi bi-chevron-double-right"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- End Pagination -->
 
               <div class="announce">
                 <div class="d-flex flex-column">
