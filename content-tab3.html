@@ -374,25 +374,30 @@
                       </div>
                   </div><!-- search-container -->
                   
-                  
+                  <!-- Start Table -->
                   <div class="tab table-responsive mt-4">
                     <button class="btn btn-sm btn-outline-primary float-end shadow text-dark border-light-subtle px-3 py-1 align-middle"><img src="/assets/img/icon-download-excel.png" style="width: 20px !important; " alt="download sheet" class="p-0 m-0"> Download</button>
-                    <table class="table table-striped table-hover table-bordered"  id="sortTable">
-                      <thead class="table-dark">
-                        <tr>
-                          <th scope="col">No.</th>
-                          <th scope="col">사고번호</th>
+                    <table class="table mt-5 tab-list" >
+                      <thead class="table-light">
+                        <tr  class="text-center" >
+                          <th scope="col" style="width: 5%;">No.</th>
+                          <th scope="col" style="width: 22%;">사고번호</th>
                           <th scope="col">오염원</th>
-                          <th scope="col">관할 해경</th>
-                          <th scope="col">오염원 구분</th>
-                          <th scope="col">오염원 종류</th>
+                          <th scope="col" style="width: 9%;">관할 <br> 해경</th>
+                          <th scope="col" style="width: 9%;">오염원 <br> 구분</th>
+                          <th scope="col" style="width: 9%;">오염원 <br> 종류</th>
                           <th scope="col">오염물질종류</th>
-                          <th scope="col">오염원 국적</th>
-                          <th scope="col">총 유출량 (리터)</th>
+                          <th scope="col" style="width: 9%;">오염원 <br> 국적</th>
+                          <th scope="col" style="width: 8%;">
+                            총
+                            <br>
+                            유출량
+                            <br>
+                            (리터)</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
+                        <tr  class="text-center" >
                           <th scope="row">1</th>
                           <td>인천_1990_05_22</td>
                           <td>제10한영</td>
@@ -403,7 +408,7 @@
                           <td>한국</td>
                           <td>0,1</td>
                         </tr>
-                        <tr>
+                        <tr class="text-center" >
                           <th scope="row">2</th>
                           <td>인천_1990_05_22</td>
                           <td>제10한영</td>
@@ -414,7 +419,7 @@
                           <td>한국</td>
                           <td>0,1</td>
                         </tr>
-                        <tr>
+                        <tr class="text-center" >
                           <th scope="row">3</th>
                           <td>인천_1990_05_22</td>
                           <td>제10한영</td>
@@ -425,7 +430,7 @@
                           <td>한국</td>
                           <td>0,1</td>
                         </tr>
-                        <tr>
+                        <tr class="text-center" >
                           <th scope="row">4</th>
                           <td>인천_1990_05_22</td>
                           <td>제10한영</td>
@@ -436,7 +441,7 @@
                           <td>한국</td>
                           <td>0,1</td>
                         </tr>
-                        <tr>
+                        <tr class="text-center" >
                           <th scope="row">5</th>
                           <td>인천_1990_05_22</td>
                           <td>제10한영</td>
@@ -448,7 +453,40 @@
                           <td>0,1</td>
                         </tr>
                       </tbody>
-                    </table>
+                    </table><!-- End Table -->
+
+                    <!-- Start pagination -->
+                    <div class="d-flex justify-content-center mt-4">
+                      <nav aria-label="navigation example">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                              <i class="bi bi-chevron-double-left"></i>
+                            </a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link m-1 rounded-3" href="#" aria-label="Previous">
+                              <i class="bi bi-chevron-left"></i>
+                            </a>
+                          </li>
+                          <li class="page-item  active" aria-current="page"><a class="page-link m-1 rounded-3" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link m-1 rounded-3" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link m-1 rounded-3" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                              <i class="bi bi-chevron-right"></i>
+                            </a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                              <i class="bi bi-chevron-double-right"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <!-- End Pagination -->
+
                   </div>
                 </div>
                 
