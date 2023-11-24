@@ -885,9 +885,9 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
     text-align: center;
     font-size: 18px;
     margin: 3px;
-    padding-left: 30%;
-    padding-top: 3px;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
 
   }
   .char-hangeul li a:hover, .char-roman li a:hover {
