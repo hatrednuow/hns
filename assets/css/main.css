@@ -213,6 +213,11 @@ input:focus, button:focus {
   max-height: 65px;
 }
 
+.img-fluid {
+  height: 51px;
+  margin: 5px auto;
+  max-width: inherit;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

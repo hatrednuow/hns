@@ -169,6 +169,12 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 65px;
 }
 
+.img-fluid {
+  height: 50px;
+  margin: 5px auto;
+  max-width: inherit;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1185,6 +1191,9 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
   border-right: 0;
 }
 .tab-list tbody tr:hover td, .tab-list tbody tr:hover th {
+  background-color: #F8FBFF;
+}
+.tab-h .table-active {
   background-color: #F8FBFF;
 }
 /*--------------------------------------------------------------
