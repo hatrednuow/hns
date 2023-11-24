@@ -32,7 +32,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/color.css" rel="stylesheet">
-  <link href="assets/css/table.css" rel="stylesheet">
   <link href="assets/css/content.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
 </head>
@@ -53,16 +52,17 @@
         <a href="login.html" class="btn btn-md btn-outline-dark">로그아웃</a>
       </div>
     </div>
+    <!-- Global Navigation Bar -->
     <nav id="navbar" class="navbar border-bottom border-light-subtle">
       <ul>
-        <li class="dropdown"><a href="content.html"><span>시스템소개</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="content.html"><span>시스템소개</span></a>
           <ul>
             <div class="nav-title">시스템소개</div>
             <li><a href="content.html">• 개요</a></li>
             <li><a href="map.html">• 오시는 길</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="content-tab.html"><span>HNS물질정보</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="content-tab.html"><span>HNS물질정보</span></a>
           <ul>
             <div class="nav-title">• HNS물질정보</div>
             <li><a href="content-tab.html">• 위험유해물질</a></li>
@@ -71,13 +71,13 @@
             <li><a href="#">• 위해성 우선순위</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="content-tab2.html"><span>HNS대응정보</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="content-tab2.html"><span>HNS대응정보</span></a>
           <ul>
             <div class="nav-title">HNS대응정보</div>
             <li><a href="content-tab2.html">• HNS해양사고 대응정보</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="content-tab3.html"><span>해양사고이력</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="content-tab3.html"><span>해양사고이력</span></a>
           <ul>
             <div class="nav-title">해양사고이력</div>
             <li><a href="content-tab3.html">• HNS해양사고이력조회</a></li>
@@ -94,7 +94,7 @@
             <li><a href="#">• 유출량별 해양오염사고 현황</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="content-tab4-a.html"><span>정보알림</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="content-tab4-a.html"><span>정보알림</span></a>
           <ul>
             <div class="nav-title">정보알림</div>
             <li><a href="content-tab4-a.html">• 항만위험유해물질</a></li>
@@ -105,7 +105,7 @@
             <li><a href="#">• 해양용어</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="content-tab5.html"><span>알림마당</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="content-tab5.html"><span>알림마당</span></a>
           <ul>
             <div class="nav-title">알림마당</div>
             <li><a href="content-tab5.html">• 공지사항</a></li>
@@ -114,7 +114,8 @@
         </li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
+    </nav>
+    <!-- Global Navigation Bar -->
   </header><!-- End Header -->
 
   <main id="main" class="hns-content">
@@ -143,6 +144,7 @@
               </ol>
               <h1 class="mt-5">위험유해물질</h1>
                 <div class="content-section border-bottom">
+                  <!-- Strart Filter -->
                   <div class="search-table col-lg-12">
                       <div class="text-center p-2">
 
@@ -218,73 +220,155 @@
                         </div>
                       </div>
                   </div>
-                  <div class="tab table-responsive">
-                    <table class="table table-striped table-hover table-bordered"  id="sortTable">
-                      <thead class="table-dark">
-                        <tr>
-                          <th scope="col">No</th>
-                          <th scope="col">물질명 (국문)</th>
-                          <th scope="col">물질명 (영문)</th>
-                          <th scope="col">CAS</th>
-                          <th scope="col">UN</th>
-                          <th scope="col">IMDG</th>
-                          <th scope="col">해양환경 거동분류</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td><a href="content-listview.html">아세트산</a></td>
-                          <td>Acetic acid</td>
-                          <td>8</td>
-                          <td>64-19-7</td>
-                          <td>2789</td>
-                          <td>용해(D)</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>아세트산</td>
-                          <td>Acetic acid</td>
-                          <td>8</td>
-                          <td>64-19-7</td>
-                          <td>2789</td>
-                          <td>용해(D)</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>아세트산</td>
-                          <td>Acetic acid</td>
-                          <td>8</td>
-                          <td>64-19-7</td>
-                          <td>2789</td>
-                          <td>용해(D)</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">4</th>
-                          <td>아세트산</td>
-                          <td>Acetic acid</td>
-                          <td>8</td>
-                          <td>64-19-7</td>
-                          <td>2789</td>
-                          <td>용해(D)</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">5</th>
-                          <td>아세트산</td>
-                          <td>Acetic acid</td>
-                          <td>8</td>
-                          <td>64-19-7</td>
-                          <td>2789</td>
-                          <td>용해(D)</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                  <!-- End Filter -->
+
+                  <!-- Start Table -->
+
+                  <table class="table mt-5 tab-list">
+                    <thead class="table-light">
+                      <tr>
+                        <th scope="col">NO</th>
+                        <th scope="col">물질명 (국문)</th>
+                        <th scope="col">물질명 (영문)</th>
+                        <th scope="col">CAS</th>
+                        <th scope="col">UN</th>
+                        <th scope="col">IMDG</th>
+                        <th scope="col">해양환경거동분류</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>아세트산</td>
+                        <td>Acetic acid</td>
+                        <td>64-19-7</td>
+                        <td>2789</td>
+                        <td>0</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>아세트산 무수물</td>
+                        <td>Acetic anhydride</td>
+                        <td>108-24-7</td>
+                        <td>1715</td>
+                        <td>8</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>아세톤 시아노히드린</td>
+                        <td>Acetone cyanohydrin</td>
+                        <td>75-86-5</td>
+                        <td>1541</td>
+                        <td>6.1</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>아세토니트릴</td>
+                        <td>Acetonitrile</td>
+                        <td>75-05-8</td>
+                        <td>1648</td>
+                        <td>3</td>
+                        <td>용해/증발(DE)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>아크릴산</td>
+                        <td>Acrylic acid</td>
+                        <td>79-10-7</td>
+                        <td>2218</td>
+                        <td>8</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>아세트산</td>
+                        <td>Acetic acid</td>
+                        <td>64-19-7</td>
+                        <td>2789</td>
+                        <td>0</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>아세트산 무수물</td>
+                        <td>Acetic anhydride</td>
+                        <td>108-24-7</td>
+                        <td>1715</td>
+                        <td>8</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>아세톤 시아노히드린</td>
+                        <td>Acetone cyanohydrin</td>
+                        <td>75-86-5</td>
+                        <td>1541</td>
+                        <td>6.1</td>
+                        <td>용해(D)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>아세토니트릴</td>
+                        <td>Acetonitrile</td>
+                        <td>75-05-8</td>
+                        <td>1648</td>
+                        <td>3</td>
+                        <td>용해/증발(DE)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>아크릴산</td>
+                        <td>Acrylic acid</td>
+                        <td>79-10-7</td>
+                        <td>2218</td>
+                        <td>8</td>
+                        <td>용해(D)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+                  <!-- End Table -->
+                  
+                  <!-- Start pagination -->
+                  <div class="d-flex justify-content-center mt-4">
+                    <nav aria-label="navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                            <i class="bi bi-chevron-double-left"></i>
+                          </a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link m-1 rounded-3" href="#" aria-label="Previous">
+                            <i class="bi bi-chevron-left"></i>
+                          </a>
+                        </li>
+                        <li class="page-item  active" aria-current="page"><a class="page-link m-1 rounded-3" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link m-1 rounded-3" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link m-1 rounded-3" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                            <i class="bi bi-chevron-right"></i>
+                          </a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link m-1 rounded-3" href="#" aria-label="Next">
+                            <i class="bi bi-chevron-double-right"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
                   </div>
+                  <!-- End Pagination -->
+
                 </div>
                 
             </div>
           </div>
-          <div class="announce">
+          <div class="announce d-none d-lg-block d-md-block">
             <div class="d-flex flex-column">
               <ul>
                 <li class="announce-button text-bg-primary">

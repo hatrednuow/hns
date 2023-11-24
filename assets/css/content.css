@@ -42,9 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 .pl-3 {
   padding-left: 30px !important;
 }
-.table > thead {
-  font-size: 12px;
-}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -197,9 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar a, .navbar a:focus {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px;
   font-size: 1.1rem;
   font-weight: 500;
   color: var(--darkgrey);
@@ -207,6 +203,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   text-decoration: none;
   font-weight: 900;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar a i, .navbar a:focus i {
@@ -739,6 +737,7 @@ section {
   background-image: url("../../assets/img/icon-chemical.svg");
   background-repeat: no-repeat;
   background-position: top;
+  background-color: #cce1fd !important;
 }
 
 .content .page a {
@@ -1095,7 +1094,7 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
   width: 100vmax;
   left: 0;
   min-height: 150px;
-  top: 150px !important;
+  top: 146px !important;
   flex-basis: 200px;
   justify-content: left;
   box-shadow: 0px 10px 10px rgba(127, 137, 161, 0.15);
@@ -1143,6 +1142,51 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
   color: var(--white);
 }
 
+.navbar ul li > a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  border-top: 3px solid var(--button-icon-title);
+  transform: scaleX(0);
+  transition: all 0.3s;
+}
+.navbar ul li:hover > a::after {
+  transform: scaleX(1);
+}
+
+
 /*--------------------------------------------------------------
 # Nav Revision
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Table
+--------------------------------------------------------------*/
+.tab-list {
+  border: 1px solid #F4F6F8;
+  border-left: 0;
+  border-right: 0;
+  border-top: 2px solid var(--blue);
+}
+.tab-list th {
+  padding: 20px;
+}
+.tab-list th, .tab-list td {
+  border: 1px solid #F4F6F8;
+  vertical-align: middle;
+}
+.tab-list th:first-child, .tab-list td:first-child {
+  border-left: 0;
+}
+.tab-list th:last-child, .tab-list td:last-child {
+  border-right: 0;
+}
+.tab-list tbody tr:hover td, .tab-list tbody tr:hover th {
+  background-color: #F8FBFF;
+}
+/*--------------------------------------------------------------
+# Table
 --------------------------------------------------------------*/
