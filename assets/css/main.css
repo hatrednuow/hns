@@ -4,7 +4,7 @@
 # Colors
 --------------------------------------------------------------*/
 :root{
-  --main-bg:#f2f2f2;
+  --main-bg:white;
   --input:#47b2e4;
   --grey: #AEAEAE;
   --black: #232323;
@@ -15,6 +15,7 @@
   --button-icon-title: #4E8CFF;
   --button-blue: #3F609D;
   --foter-bg: #363C49;
+  --page-info: #8CA5BA;
 }
 
 /*--------------------------------------------------------------

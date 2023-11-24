@@ -123,20 +123,49 @@
 
           <div class="page col-lg-3">
               <div class="page-info text-bg-light">해양사고이력</div>
-              <div class="btn-group-vertical mt-5 w-100" role="group" aria-label="page-nav">
-                <a href="content-tab3.html" class="btn btn-lg btn-primary text-white p-3">HNS해양사고이력조회 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="content-tab3-a.html" class="btn btn-lg btn-outline-light text-black p-3">HNS해양사고통계 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 유출량 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 지역별 사고현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 지역별 오염원 사고현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 해양오염신고 실적 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 해양오염행위 위반 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 물질별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 선종별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 원인별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 해역별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3">&bull; 유출량별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
+
+              <!-- Side Navigation Bar -->
+              <div class="sidebar">
+                <ul class="d-flex flex-column">
+                  <li class="active">
+                    <a href="content-tab3.html">HNS해양사고이력조회 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="content-tab3-a.html">HNS해양사고통계 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 유출량 현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 지역별 사고현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 지역별 오염원 사고현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 해양오염신고 실적 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 해양오염행위 위반 현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 물질별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 선종별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 원인별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 해역별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">&bull; 유출량별 해양오염사고 현황 <i class="bi bi-chevron-right float-end"></i></a>
+                  </li>
+                </ul>
               </div>
+              <!-- Side Navigation Bar -->
           </div>
 
           <div class="col-lg-9">
@@ -368,27 +397,24 @@
                         </form>
                       </div>
                   </div><!-- search-container -->
+
+                  <!-- Download Button -->
+                  <button class="btn btn-sm btn-outline-light float-end shadow-sm text-dark border-light-subtle px-3 py-1 align-middle mt-4 mb-3"><img src="/assets/img/icon-download-excel.png" style="width: 20px !important; " alt="download sheet" class="p-0 m-0"> Download</button>
+                  <!-- Download Button -->
                   
                   <!-- Start Table -->
-                  <div class="tab table-responsive mt-4">
-                    <button class="btn btn-sm btn-outline-primary float-end shadow text-dark border-light-subtle px-3 py-1 align-middle"><img src="/assets/img/icon-download-excel.png" style="width: 20px !important; " alt="download sheet" class="p-0 m-0"> Download</button>
                     <table class="table mt-5 tab-list" >
                       <thead class="table-light">
                         <tr  class="text-center" >
-                          <th scope="col" style="width: 5%;">No.</th>
-                          <th scope="col" style="width: 22%;">사고번호</th>
+                          <th scope="col" style="width: 3%;">No.</th>
+                          <th scope="col">사고번호</th>
                           <th scope="col">오염원</th>
-                          <th scope="col" style="width: 9%;">관할 <br> 해경</th>
-                          <th scope="col" style="width: 9%;">오염원 <br> 구분</th>
-                          <th scope="col" style="width: 9%;">오염원 <br> 종류</th>
+                          <th scope="col">관할 해경</th>
+                          <th scope="col">오염원 구분</th>
+                          <th scope="col">오염원 종류</th>
                           <th scope="col">오염물질종류</th>
-                          <th scope="col" style="width: 9%;">오염원 <br> 국적</th>
-                          <th scope="col" style="width: 8%;">
-                            총
-                            <br>
-                            유출량
-                            <br>
-                            (리터)</th>
+                          <th scope="col">오염원 국적</th>
+                          <th scope="col">총 유출량 (리터)</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -481,8 +507,6 @@
                       </nav>
                     </div>
                     <!-- End Pagination -->
-
-                  </div>
                 </div>
                 
             </div>
