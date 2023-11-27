@@ -1088,7 +1088,7 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
   position: fixed;
   top: calc(100% + 30px);
   margin: 0;
-  padding: 20px 15% 20px 30%;
+  padding: 10px 15% 10px 30%;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -1098,7 +1098,7 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
   border-radius: 0;
   width: 100vmax;
   left: 0;
-  min-height: 150px;
+  min-height: 90px;
   top: 148px !important;
   flex-basis: 200px;
   justify-content: left;
@@ -1129,6 +1129,7 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
   font-size: 1rem;
   font-weight: 700;
   justify-content: left;
+  padding: 5px 10px;
 }
 .nav-title {
   display: flex;
@@ -1215,6 +1216,7 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
   border-left: 1px solid #CFD8DC;
   border-right: 1px solid #CFD8DC;
   /* border-top: 1px solid #CFD8DC; */
+  transition: ease 0.3s;
 }
 
 .sidebar ul li:hover {

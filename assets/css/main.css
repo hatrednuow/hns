@@ -51,11 +51,15 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("../../assets/img/bg-login.jpg");
   background-position: top left;
   background-repeat: no-repeat;
-
+  background-clip: content-box;
+  background-size: cover;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login .login-panel {
-  margin-top: 12.5vh;
   padding: 50px;
   border-radius: 0.5rem;
 }
@@ -1065,7 +1069,7 @@ section {
   position: fixed;
   top: calc(100% + 30px);
   margin: 0;
-  padding: 20px 15% 20px 30%;
+  padding: 10px 15% 10px 30%;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -1075,8 +1079,8 @@ section {
   border-radius: 0;
   width: 100vmax;
   left: 0;
-  min-height: 150px;
-  top: 147px !important;
+  min-height: 90px;
+  top: 149px !important;
   flex-basis: 200px;
   justify-content: left;
   box-shadow: 0px 10px 10px rgba(127, 137, 161, 0.15);
@@ -1105,6 +1109,7 @@ section {
   font-size: 1rem;
   font-weight: 700;
   justify-content: left;
+  padding: 5px 10px;
 }
 .nav-title {
   display: flex;
