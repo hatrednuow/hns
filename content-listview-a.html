@@ -127,14 +127,28 @@
         <div class="row gy-4">
 
           <div class="page col-lg-3">
-              <div class="page-info text-bg-light">HNS물질정보</div>
-              <div class="btn-group-vertical mt-5 w-100" role="group" aria-label="page-nav">
-                <a href="content-tab.html" class="btn btn-lg btn-outline-light text-black p-3">위험유해물질 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="content-tab-1a.html" class="btn btn-lg btn-primary text-white p-3 pl-3">- 위해성분류 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="content-tab-1b.html" class="btn btn-lg btn-outline-light text-black p-3 pl-3">- 거동특성분류 <i class="bi bi-chevron-right float-end"></i></a>
-                <a href="#" class="btn btn-lg btn-outline-light text-black p-3 pl-3">- 위해성우선순위 <i class="bi bi-chevron-right float-end"></i></a>
-              </div>
-          </div>
+            <div class="page-info text-bg-light">HNS물질정보</div>
+            
+            <!-- Side Navigation Bar -->
+            <div class="sidebar">
+              <ul class="d-flex flex-column">
+                <li class="active">
+                  <a href="content-tab.html">위험유해물질 <i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+                <li>
+                  <a href="content-tab-1a.html">- 위해성분류 <i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+                <li>
+                  <a href="content-tab-1b.html">- 거동특성분류 <i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+                <li>
+                  <a href="#">- 위해성우선순위 <i class="bi bi-chevron-right float-end"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!-- Side Navigation Bar -->
+        </div>
+          
 
           <div class="col-lg-9">
             <div class="container main-content">
@@ -143,26 +157,169 @@
                 <li>HNS물질정보</li>
                 <li>위해성 분류</li>
               </ol>
-              <h1 class="mt-5">위해성 분류</h1>
-                <div class="content-section border-bottom">
+              <h3 class="mt-5">위해성 분류</h3>
+              <h1 class="mb-4">아세트산</h1>
 
-                  <!-- isi start -->
-                  <table class="table">
-                    <thead class="table-light text-secondary">
-                      <tr>
-                        <th scope="col"><i class="bi bi-geo-alt-fill list-icon"></i>화학물질 정보</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <!-- isi end -->
+                <div class="content-section">
+
+                  <!-- isinya start -->
+                  <div class="accordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#basicinformation-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          물질 기본 정보
+                        </button>
+                      </h2>
+                      <div id="basicinformation-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <td class="text-bg-light w-25">물질명 (국문)</td>
+                                <td>아세트산</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">물질명 (영문)</td>
+                                <td>Acetic acid   </td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">CAS 번호</td>
+                                <td>64-19-7   </td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">UN 번호</td>
+                                <td>2789</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">IMDG 번호</td>
+                                <td>8</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">화학물질 분류</td>
+                                <td>Z</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">대체화학명 영문</td>
+                                <td>-</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">대체화학명 국문</td>
+                                <td>-</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nfpa-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          NFPA 704(National Fire Protection Association)
+                        </button>
+                      </h2>
+                      <div id="nfpa-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <td class="align-middle text-bg-light w-25">도형</td>
+                                <td>
+                                  <img src="./assets/img/nfp704-image-acetic_acid.jpg" class="w-25" alt="">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">NFPA 건강위험성(파랑색)</td>
+                                <td>매우 짧은 신체적 노출로도 일시적 혹은 만성적 부상을 야기할 수 있음</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">NFPA 화재위험성(빨강색)</td>
+                                <td>발화가 일어나려면 상대적으로 더운 환경에 위치하거나 지속적으로 가열되어야 함. 인화점 섭씨 38도 이상 93도 이하인 물질</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">NFPA 반응위험성(노랑색)</td>
+                                <td>화기에 노출되어도 일반적으로 안정적이며, 물과 반응하지 않음</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">NFPA 특수위험성(흰색)</td>
+                                <td>-</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#physicalproperties-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          물리적 특성
+                        </button>
+                      </h2>
+                      <div id="physicalproperties-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <td class="align-middle text-bg-light w-25">인화점(℃)</td>
+                                <td>44</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">발화 점(℃)</td>
+                                <td>463</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">비중</td>
+                                <td>1.05</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">분자량</td>
+                                <td>60.1</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">성상</td>
+                                <td>액체 혹은 결정</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">부식성</td>
+                                <td>O</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">폭발 한계 (EL)</td>
+                                <td>4.0% ~ 16.0%</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">증기압(mmHg)</td>
+                                <td>11</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">끓는점(℃)</td>
+                                <td>118</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">물 용해도</td>
+                                <td>용해</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">폭발성</td>
+                                <td>2</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">해양환경 거동분류</td>
+                                <td>용해(D-Dissolver)</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="text-end">
+                    <button class="btn btn-primary mt-3 px-5 py-2 text-white">목록 &nbsp; <i class="bi bi-chevron-right"></i></button>
+                  </div>
+                  
+                  <!-- isinya end -->
                   
                 </div>
-                
             </div>
           </div>
           <div class="announce">
