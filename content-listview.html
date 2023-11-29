@@ -142,177 +142,394 @@
                 <li><a href="index.html" class="text-secondary">&#xF424;</a></li>
                 <li>HNS해양사고 대응정보</li>
               </ol>
-              <h1 class="mt-5">HNS해양사고 대응정보</h1>
+              <h1 class="mt-5">HNS해양사고 대응정보 상세</h1>
                 <div class="content-section border-bottom">
 
-                  <!-- List View Detail-->
-                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                  <!-- akordion start -->
+                  <div class="accordion">
+                    <!-- item 1 -->
                     <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                          <span class="fs-5 text-secondary fw-bold">화학물질 정보</span>
+                      <h2 class="accordion-header ">
+                        <button class="accordion-button fw-bolder bg-accordion-overide" type="button" data-bs-toggle="collapse" data-bs-target="#basicinformation-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          화학 물질 정보
                         </button>
                       </h2>
-                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div id="basicinformation-collapseOne" class="accordion-collapse collapse show">
                         <div class="accordion-body">
-                          <!-- List Detail Content 1 -->
-                            <div>
-                              <h1>아세트산</h1>
-                              <h3><i class='bx bx-play'></i> Acetic acid</h3>
-                              <ul>
-                                <li>CAS 번호 : 64-19-7 ㆍUN 번호 : 2789 ㆍIMDG 번호 : 8 ㆍ화학물질 분류 : Z</li>
-                                <li>대체화학명 영문 : -</li>
-                                <li>대체화학명 국문 : -</li>
-                              </ul>
-                            </div>
-                          <!-- List Detail Content 1 -->
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <td class="text-bg-light w-25">물질명 (국문)</td>
+                                <td>아세트산</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">물질명 (영문)</td>
+                                <td>Acetic acid</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">CAS 번호</td>
+                                <td>64-19-7   </td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">UN 번호</td>
+                                <td>2789</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">IMDG 번호</td>
+                                <td>8</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">화학물질 분류</td>
+                                <td>Z</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">대체화학명 영문</td>
+                                <td>-</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">대체화학명 국문</td>
+                                <td>-</td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
                       </div>
                     </div>
+
+                    <!-- item 2  -->
                     <div class="accordion-item">
                       <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                          <span class="fs-5 text-secondary fw-bold">화재 시 비상조치법</span>
+                        <button class="accordion-button fw-bolder collapsed bg-accordion-overide" type="button" data-bs-toggle="collapse" data-bs-target="#fire-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" class="bg-accordion-overide">
+                          화재 시 비상조치법
                         </button>
                       </h2>
-                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                      <div id="fire-collapseTwo" class="accordion-collapse collapse show">
                         <div class="accordion-body">
-
-                          <!-- List Detail Content 2 -->
-                          <table class="table table-bordered table-bordered-columns">
-                            <tbody class="">
+                          <table class="table">
+                            <tbody>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ일반 요구사항</th>
-                                <td>열에 노출된 탱크내의 화물은 비등액체-팽창 증기 폭발(BLEVE : Boiling Liquid - Expanding Vapour Explosion)에 의하여 화재 시 또는 화재 후 갑자기 폭발할 수 있음. 다량의 물을 사용하여 탱크를 냉각시킬 것. 가능한 멀리 떨어진 보호된 위치에서 화재를 진압할 것. 실행가능하다면 유출을 멈추게 하거나 개방된 밸브를 폐쇄시킬 것. 불꽃은 눈에 보이지 않을 수도 있음.</td>
+                                <td class="align-middle text-bg-light w-25">일반 요구사항</td>
+                                <td>열에 노출된 탱크내의 화물은 비등액체-팽창 증기 폭발(BLEVE : Boiling Liquid - Expanding Vapour Explosion)에 의하여 화재 시 또는 화재 후 갑자기 폭발할 수 있음. 다량의 물을 사용하여 탱크를 냉각시킬 것. 가능한 멀리 떨어진 보호된 위치에서 화재를 진압할 것. 실행가능하다면 유출을 멈추게 하거나 개방된 밸브를 폐쇄시킬 것. 불꽃은 눈에 보이지 않을 수도 있음.
+                                </td>
                               </tr>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ갑판 상부 화물화재</th>
+                                <td class="text-bg-light">갑판 상부 화물화재</td>
                                 <td>포장화물 : 가능한 한 많은 호스를 사용하여 물을 분사할 것. 화물운송장치 : 연소중인 화물운송 장치와 화재에 노출된 인접 화물을 다량의 물을 사용하여 냉각시킬 것.</td>
                               </tr>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ갑판 하부 화물화재</th>
+                                <td class="text-bg-light">갑판 하부 화물화재</td>
                                 <td>환기를 중지하고 해치를 닫을 것. 화물구역에 설치된 고정식 소화장치를 사용할 것. 이것이 불가능하다면 다량의 물을 사용하여 물이 분사되도록 할 것.</td>
                               </tr>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ화재 노출화물</th>
+                                <td class="text-bg-light">화재 노출화물</td>
                                 <td>실행 가능하다면 화재에 연루될 가능성이 있는 포장화물은 제거하거나 바다에 버릴 것. 그렇지 아니하다면 물을 사용하여 수 시간 냉각시킬 것.</td>
                               </tr>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ특례</th>
+                                <td class="text-bg-light">특례</td>
                                 <td>화물이 물과 접촉 시에는 염산(hydrochloric acid)을 생성할 것임 : 유출물에서 멀리 떨어질 것.</td>
                               </tr>
                             </tbody>
                           </table>
-                          <!-- List Detail Content 2 -->
-
                         </div>
                       </div>
                     </div>
+
+                    <!-- item 3  -->
                     <div class="accordion-item">
                       <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                          <span class="fs-5 text-secondary fw-bold">유출 시 비상조치법</span>
+                        <button class="accordion-button fw-bolder collapsed bg-accordion-overide" type="button" data-bs-toggle="collapse" data-bs-target="#leak-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          유출 시 비상조치법 
                         </button>
                       </h2>
-                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                      <div id="leak-collapseThree" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                          
-                          <!-- List Detail Content 3 -->
-                          <table class="table table-bordered table-bordered-columns">
-                            <tbody class="">
+                          <table class="table">
+                            <tbody>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ일반 요구사항</th>
-                                <td>보호의 및 자장식 호흡구를 착용할 것. 보호의를 착용하였다고 하더라도 접촉을 피할 것. 유출되는 화물에 접근을 금할 것. 발생하는 증기에 접근을 금할 것. 심지어 아주 짧은 시간 소량의 증기를 흡입 시에도 호흡곤란을 야기할 수 있음. 해당 물질 표면에 물을 사용하면 격렬히 반응하여 독성 증기를 생성시킬 수 있음. 해당 물질은 선박의 구조물에 손상을 줄 수 있음. 유출물에서 또는 물과의 반응으로 인화성 증기를 방출시킬 수 있음. 모든 점화원을 피할 것(예, 나화, 보호되지 아니한 전구, 전동 수공구, 마찰 등). 오염된 의복은 물로 씻은 후 제거할 것.</td>
+                                <td class="align-middle text-bg-light w-25">일반 요구사항</td>
+                                <td>보호의 및 자장식 호흡구를 착용할 것. 보호의를 착용하였다고 하더라도 접촉을 피할 것. 유출되는 화물에 접근을 금할 것. 발생하는 증기에 접근을 금할 것. 심지어 아주 짧은 시간 소량의 증기를 흡입 시에도 호흡곤란을 야기할 수 있음. 해당 물질 표면에 물을 사용하면 격렬히 반응하여 독성 증기를 생성시킬 수 있음. 해당 물질은 선박의 구조물에 손상을 줄 수 있음. 유출물에서 또는 물과의 반응으로 인화성 증기를 방출시킬 수 있음. 모든 점화원을 피할 것(예, 나화, 보호되지 아니한 전구, 전동 수공구, 마찰 등). 오염된 의복은 물로 씻은 후 제거할 것.
+                                </td>
                               </tr>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ갑판 상부 화물화재</th>
+                                <td class="text-bg-light">갑판 상부 화물화재</td>
                                 <td>포장화물 (소량유출) : 다량의 물을 사용하여 선외로 씻어 낼 것. 유출물 위에 직접 물을 강하게 분사하지 말 것. 유출되는 화물에 접근을 금할 것. 유출된 장소를 완전히 청소할 것. 화물운송장치 (대량유출) : 선교와 거주구역이 바람이 불어오는 쪽으로 향하도록 할 것. 물분사장치를 사용하여 부식성이나 독성 증기를 몰아냄으로써 승무원과 거주구역을 보호할 것. 다량의 물을 사용하여 선외로 씻어 낼 것. 유출물 위에 직접 물을 강하게 분사하지 말 것. 유출되는 화물에 접근을 금할 것. 유출된 장소를 완전히 청소할 것.</td>
                               </tr>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ갑판 하부 화물화재</th>
+                                <td class="text-bg-light">갑판 하부 화물화재</td>
                                 <td>포장화물 (소량유출) : 적절한 환기조치를 취할 것. 자장식 호흡구를 착용하지 아니하고는 갑판으로 들어가지 말 것. 들어가기 전에 대기상태를 점검할 것(독성 및 폭발 위험성). 만약 대기상태를 점검할 수 없을 시에는 들어가지 말 것. 증기가 증발하도록 둘 것. 접근 금지. 액체 : 유출된 구역을 충분히 환기시킬 것. 선창의 유출물 위에 물을 분사하여 인화성 증기의 발화를 피할 것. 선창의 바닥으로 깨끗이 씻어 내릴 것. 다량의 물을 사용할 것. 펌프를 사용하여 선외로 배출시킬 것. 고체 : 유출물을 수거할 것. 선외로 배출시킬 것. 잔류물을 선창의 바닥으로 깨끗이 씻어 내릴 것. 다량의 물을 사용할 것. 펌프를 사용하여 선외로 배출시킬 것. 화물운송장치 (대량유출) : 선교와 거주구역이 바람이 불어오는 쪽으로 향하도록 할 것. 물분사장치를 사용하여 부식성이나 독성 증기를 몰아냄으로써 승무원과 거주구역을 보호할 것. 유출된 구역에 들어가는 말 것. 접근 금지. 무선으로 전문가의 조언을 구할 것. 전문가들에 의한 위험성 평가가 있은 후에 계속 진행할 것. 적절한 환기조치를 취할 것. 자장식 호흡구를 착용하지 아니하고는 유출된 구역에 들어가지 말 것. 들어가기 전에 대기상태를 점검할 것(독성 및 폭발 위험성). 만약 대기상태를 점검할 수 없을 시에는 들어가지 말 것. 증기가 증발되도록 둘 것. 접근 금지. 환기장치를 사용하는 경우에는 선박의 종사장소(예, 거주구역, 기관구역, 작업구역)로 독성증기나 퓸(fume)이 들어가는 것이 방지되도록 특별한 주의를 기울일 것. 액체 : 유출된 구역을 충분히 환기시킬 것. 유출물 표면에 물을 분사하여 인화성 증기의 발화를 방지할 것. 선창의 바닥으로 깨끗이 씻어 내릴 것. 다량의 물을 사용할 것. 펌프를 사용하여 선외로 배출시킬 것. 고체 : 유출물을 수거할 것. 선외로 배출시킬 것. 잔류물을 선창의 바닥으로 깨끗이 씻어 내릴 것. 다량의 물을 사용할 것. 펌프를 사용하여 선외로 배출시킬 것.</td>
                               </tr>
                               <tr>
-                                <th scope="row" class="w-25">ㆍ특례</th>
+                                <td class="text-bg-light">특례</td>
                                 <td>해양오염물질 표시 : MARPOL의 보고요건에 따라 사고내용을 보고할 것. (인화성인 경우) : 유출된 물질은 자기발화(self-ignition) 가능성이 있음.</td>
                               </tr>
-                              </tr>
                             </tbody>
                           </table>
-                          <!-- List Detail Content 3 -->
-
                         </div>
                       </div>
                     </div>
+
+                    <!-- item 4  -->
                     <div class="accordion-item">
                       <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                          <span class="fs-5 text-secondary fw-bold">인체독성</span>
+                        <button class="accordion-button fw-bolder collapsed bg-accordion-overide" type="button" data-bs-toggle="collapse" data-bs-target="#toxicity-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          인체독성
                         </button>
                       </h2>
-                      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                      <div id="toxicity-collapseFour" class="accordion-collapse collapse">
                         <div class="accordion-body">
-
-                          <!-- List Detail Content 2 -->
-                          <table class="table table-bordered table-bordered-columns">
-                            <tbody class="">
+                          <table class="table">
+                            <tbody>
                               <tr>
-                                <th scope="row" colspan="5">ㆍ급성독성</th>
-                              </tr>
-                              <tr>
+                                <td class="align-middle text-bg-light w-25" rowspan="2">급성독성</td>
                                 <td>LD5 (mg/kg, rat)</td>
                                 <td>300</td>
-                                <td>LC500 (ppm 4hr, rat)</td>
-                                <td colspan="2">16,000</td>
                               </tr>
                               <tr>
-                                <th scope="row" colspan="5">ㆍ아/만독성</th>
+                                
+                                <td>LC500 (ppm 4hr, rat)
+                                </td>
+                                <td>16,000</td>
                               </tr>
                               <tr>
+                                <td class="text-bg-light">아/만독성</td>
                                 <td>NOAEL</td>
-                                <td colspan="4">290</td>
+                                <td>290</td>
                               </tr>
                               <tr>
-                                <th scope="row" colspan="5">ㆍ발암성</th>
-                              </tr>
-                              <tr>
-                                <td>IARC</td>
+                                <td class="align-middle text-bg-light" rowspan="4">발암성</td>
                                 <td>IRIS</td>
+                                <td>-</td>
+                              </tr>
+                              <tr>
+                                
                                 <td>ACGIH</td>
-                                <td colspan="2">EU CLP</td>
+                                <td>-</td>
                               </tr>
                               <tr>
+                                
+                                <td>IARC</td>
                                 <td>-</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td colspan="2">-</td>
                               </tr>
                               <tr>
-                                <th scope="row" colspan="5">ㆍ급성독성</th>
+                                
+                                <td>EU CLP</td>
+                                <td>-</td>
                               </tr>
                               <tr>
+                                <td class="align-middle text-bg-light" rowspan="5">기타독성</td>
                                 <td>면역독성</td>
-                                <td>변이원성/유전독성</td>
-                                <td>생식독성</td>
-                                <td>발육독성</td>
-                                <td>신경행태독성</td>
+                                <td>-</td>
                               </tr>
                               <tr>
+                                
+                                <td>변이원성/유전독성</td>
                                 <td>-</td>
+                              </tr>
+                              <tr>
+                                
+                                <td>생식독성</td>
                                 <td>-</td>
-                                <td>-</td>
-                                <td>-</td>
+                              </tr>
+                              <tr>
+                                
+                                <td>발육독성</td>
+                                <td>1</td>
+                              </tr>
+                              <tr>
+                                
+                                <td>신경행태독성</td>
                                 <td>-</td>
                               </tr>
                             </tbody>
                           </table>
-                          <!-- List Detail Content 2 -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item 5  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button fw-bolder collapsed bg-accordion-overide" type="button" data-bs-toggle="collapse" data-bs-target="#aquatic-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          수생태독성
+                        </button>
+                      </h2>
+                      <div id="aquatic-collapseFive" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+
+                          <h6>1. 급성독성</h6>
+                          <table class="table tab-list">
+                            <thead class="table-light">
+                              <tr class="text-center">
+                                <th style="width: 8%;">구분</th>
+                                <th style="width: 8%;">환경</th>
+                                <td  style="width: 10%;">생물 문</td>
+                                <td class="w-auto">생물 종</td>
+                                <td  style="width: 9%;">값(mg/L)</td>
+                                <td style="width: 13%;">종료점</td>
+                                <td style="width: 7%;">지속성</td>
+                                <td style="width: 7%;">주석</td>
+                              </tr>
+                            </thead>
+                            <tbody class="text-center">
+                              <tr>
+                                <td>1</td>
+                                <td>F</td>
+                                <td>Algae</td>
+                                <td class="text-start">Navicula seminulum (Diatom)</td>
+                                <td>73.4</td>
+                                <td>Population</td>
+                                <td>1</td>
+                                <td>EC50</td>
+                              </tr>
+                              <tr>
+                                <td>2</td>
+                                <td>F</td>
+                                <td>Crustacean</td>
+                                <td class="text-start">Artemia salina (Brine Shrimp)</td>
+                                <td>32</td>
+                                <td>Mortality</td>
+                                <td>2</td>
+                                <td>LC50</td>
+                              </tr>
+                              <tr>
+                                <td>3</td>
+                                <td>F</td>
+                                <td>Fish</td>
+                                <td class="text-start">Cyprinus carpio</td>
+                                <td>49</td>
+                                <td>Mortality</td>
+                                <td>2</td>
+                                <td>LC50</td>
+                              </tr>
+                              <tr>
+                                <td>4</td>
+                                <td>F</td>
+                                <td>Other</td>
+                                <td class="text-start">Lymnaea emarginata ssp.
+                                  (Pond snail)</td>
+                                <td>320</td>
+                                <td>Immobilization</td>
+                                <td>4</td>
+                                <td>EC50</td>
+                              </tr>
+                              
+                              
+                            </tbody>
+                          </table>
+
+                          <h6>2. 만성독성</h6>
+                          <table class="table tab-list">
+                            <thead class="table-light">
+                              <tr class="text-center">
+                                <th style="width: 8%;">구분</th>
+                                <th style="width: 8%;">환경</th>
+                                <td  style="width: 10%;">생물 문</td>
+                                <td class="w-auto">생물 종</td>
+                                <td  style="width: 9%;">값(mg/L)</td>
+                                <td style="width: 13%;">종료점</td>
+                                <td style="width: 7%;">지속성</td>
+                                <td style="width: 7%;">주석</td>
+                              </tr>
+                            </thead>
+                            <tbody class="text-center">
+                              <tr>
+                                <td>1</td>
+                                <td>S</td>
+                                <td>Crustacean</td>
+                                <td class="text-start">Cragon septemspinosa (Bay shrimp)</td>
+                                <td>32</td>
+                                <td>Mortality</td>
+                                <td>14</td>
+                                <td>NOEC</td>
+                              </tr>
+                              <tr>
+                                <td>2</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td class="text-start">-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                              </tr>
+                              <tr>
+                                <td>3</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td class="text-start">-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                              </tr>
+                              <tr>
+                                <td>4</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td class="text-start">-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                              </tr>
+                              
+                              
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item 6  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button fw-bolder collapsed bg-accordion-overide" type="button" data-bs-toggle="collapse" data-bs-target="#exposure-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          인체 및 환경노출 
+                        </button>
+                      </h2>
+                      <div id="exposure-collapseSix" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <td class="text-bg-light w-25">잔류성</td>
+                                <td>-</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">공기중</td>
+                                <td>5</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">공기중</td>
+                                <td>14</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">수중</td>
+                                <td>52</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">수중</td>
+                                <td>9</td>
+                              </tr>
+                              <tr>
+                                <td class="text-bg-light">  생물농축 BCF
+                                </td>
+                                <td>3</td>
+                              </tr>
+                            </tbody>
+                          </table>
 
                         </div>
                       </div>
                     </div>
+
+                    <div class="text-end">
+                      <button class="btn btn-primary mt-3 px-5 py-2 text-white">목록 &nbsp; <i class="bi bi-chevron-right"></i></button>
+                    </div>
+
                   </div>
-                  <!-- List View Detail-->
+                  <!-- akordion end -->
 
                 </div>
             </div>

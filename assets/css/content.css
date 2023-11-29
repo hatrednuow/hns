@@ -1288,3 +1288,20 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
 /*--------------------------------------------------------------
 # icon inside table end
 --------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# font weight table
+--------------------------------------------------------------*/
+.table-content-weigh-font td {
+  font-weight: 400;
+}
+.table-content-weigh-font th {
+  font-weight: 400;
+}
+
+/* overide accordion bg color pills */
+.bg-accordion-overide {
+  background-color: #cfe2ff ;
+  border-bottom: 1px solid #a0c6fa;
+}
