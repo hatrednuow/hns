@@ -30,6 +30,17 @@ a {
   text-decoration: none;
 }
 
+.table-link {
+  color: #000;
+  text-decoration: none;
+
+}
+.table-link:hover {
+  color: #4E8CFF;
+  text-decoration:underline;
+  font-weight: 600;
+}
+
 a:hover {
   color: #73c5eb;
   text-decoration: none;
@@ -1255,4 +1266,25 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
 }
 /*--------------------------------------------------------------
 # Side Nav
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# icon inside table
+--------------------------------------------------------------*/
+.icon-inside-table {
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.icon-inside-table.box {
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+  border: 1px solid #E3E5E7;
+  color: #0051AC;
+}
+/*--------------------------------------------------------------
+# icon inside table end
 --------------------------------------------------------------*/
