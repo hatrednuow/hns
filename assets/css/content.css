@@ -26,17 +26,17 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #000;
   text-decoration: none;
 }
 
-.table-link {
-  color: #000;
+a.table-link {
+  color: #000 !important;
   text-decoration: none;
 
 }
 .table-link:hover {
-  color: #4E8CFF;
+  color: #4E8CFF !important;
   text-decoration:underline;
   font-weight: 600;
 }
