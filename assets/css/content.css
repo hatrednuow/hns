@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
-  width: 103px;
+  width: 106px;
 }
 
 #header .logo a {
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .img-fluid {
-  height: 50px;
+  height: 51px;
   margin: 5px auto;
   max-width: inherit;
 }
@@ -320,7 +320,19 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 10px !important;
   border-radius: 15px;
 }
-#header .search .has-icon .form-control-feedback {
+.has-icon .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 3.375rem;
+  height: 3.375rem;
+  line-height: 3.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  font-size: 22px;
+}
+/* #header .search .has-icon .form-control-feedback {
   height: 2.375rem;
   line-height: 2.775rem;
   color: var(--black);
@@ -330,6 +342,13 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
   bottom: 5px;
   top: 5%;
+} */
+.search .has-icon .form-control-feedback {
+  height: 2.375rem;
+  line-height: 2.775rem;
+  color: var(--black);
+  font-size: 22px;
+  right: 0;
 }
 #header .logout .btn {
   border-radius: 15px;
@@ -846,9 +865,13 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
 
   .search .fa-search{
    position: absolute;
-   top: 30%;
+   /* top: 30%; */
    right: 16px;
 
+  }
+  input:focus, button:focus {
+    border: 1px solid var(--input) !important;
+    box-shadow: none !important;
   }
   .char-button .char-hangeul, .char-button .char-roman, .char-button .char-filter {
     list-style: none;

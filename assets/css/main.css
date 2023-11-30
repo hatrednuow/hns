@@ -1382,3 +1382,10 @@ section {
   flex: 0;
   margin: 2px;
 }
+
+.search {
+  position: relative;
+  max-width: 70%;
+  margin: 0 auto;
+    margin-right: auto;
+}
