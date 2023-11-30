@@ -1054,7 +1054,7 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
 }
 
 #footer .credits .site-link {
-  display: block;
+  display: inline-block;
 }
 
 #footer .credits .copyright {
@@ -1500,4 +1500,15 @@ box-shadow: 4px 4px 12px 0px rgba(63, 96, 157, 0.10);
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+}
+
+/* additional */
+
+.social_icon {
+  list-style: none;
+}
+
+.social_icon li {
+  flex: 0;
+  margin: 2px;
 }

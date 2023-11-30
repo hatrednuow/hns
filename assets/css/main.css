@@ -1025,7 +1025,7 @@ section {
 }
 
 #footer .credits .site-link {
-  display: block;
+  display: inline-block;
 }
 
 #footer .credits .copyright {
@@ -1370,4 +1370,15 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+}
+
+/* additional */
+
+.social_icon {
+  list-style: none;
+}
+
+.social_icon li {
+  flex: 0;
+  margin: 2px;
 }
